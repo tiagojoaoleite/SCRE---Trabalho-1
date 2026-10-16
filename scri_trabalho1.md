@@ -62,7 +62,7 @@ rede.g23  = real(y23);   rede.b23  = imag(y23);
 rede.Bcap = Bcap;        rede.t2   = t2;
 ```
 
-# ================== MATRIZ Ybus ==================
+# =================== MATRIZ Ybus ===================
 ```matlab
 Y11 =  y12a + y12b + y13 + 1j*Bcap;
 Y22 =  y12a + y12b + y23;
