@@ -62,7 +62,7 @@ rede.g23  = real(y23);   rede.b23  = imag(y23);
 rede.Bcap = Bcap;        rede.t2   = t2;
 ```
 
-# ========================== MATRIZ Ybus =================================
+# ===================== MATRIZ Ybus ============================
 ```matlab
 Y11 =  y12a + y12b + y13 + 1j*Bcap;
 Y22 =  y12a + y12b + y23;
@@ -85,14 +85,14 @@ disp_Ybus = array2table(Ybus, 'RowNames', BusNames, 'VariableNames', BusNames)
 |2 TWO|-4.0000 +20.0000i|6.0000 -30.0000i|-2.0000 +10.0000i|
 |3 THREE|-2.0000 +10.0000i|-2.0000 +10.0000i|4.0000 -20.0000i|
 
-# ========================== VETOR DE ESTADO =============================
+# ===================== VETOR DE ESTADO ========================
 ```matlab
 % x = [t1, t3, V1, V2, V3]'   (angulos em rad)
 nomes_x = {'t1', 't3', 'V1', 'V2', 'V3'};
 n = numel(nomes_x);
 ```
 
-# ========================== VETOR DE MEDIDAS ============================
+# ===================== VETOR DE MEDIDAS =======================
 ```matlab
 nomes_z = {'V1','V2','V3','P21a','P21b','P31','P32','Q12a','Q32','Qgbat','P1v','Q1v'};
 z   = [V1; V2; V3; P21a; P21b; P31; P32; Q12a; Q32; Qgbat; P1v; Q1v];
