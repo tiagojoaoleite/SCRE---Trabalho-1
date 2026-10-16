@@ -613,7 +613,7 @@ disp_resumo = array2table([P1.J_final, P1.k, P1.chi2_crit, max(abs(P1.rN_final))
 
 
 % Grafico de |rN| nas tres estimacoes
-img = imread('exemplo.png');
+img = imread('Screenshot 2026-10-16 at 19.35.08.png');
 ```
 
 
