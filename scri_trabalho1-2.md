@@ -1,6 +1,6 @@
 # SCRI 2026/27 \- TP1: Estimacao de Estado em Redes de Energia (WLS)
 
-# ==================== MODELO ================================
+# ==================== MODELO ====================
 ```matlab
 % --- Admitancias serie das linhas (pu) ---
 y12a = 2 - 10j;          % linha a entre 1 e 2
