@@ -620,8 +620,8 @@ img = imread('Screenshot 2026-10-16 at 19.35.08.png');
 ```matlab
 
 
-% =========================== FUNCOES ===========================
-```matlab
+# ==================== MODELO ====================
+
 
 function R = gauss_newton(z, var, ativas, rede, tol, maxit, alfa)
 % Iteracao de Gauss-Newton:  x(k+1) = x(k) + G^-1 * H' * W * (z - h(x(k)))
