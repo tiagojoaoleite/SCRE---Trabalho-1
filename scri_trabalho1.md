@@ -92,7 +92,7 @@ nomes_x = {'t1', 't3', 'V1', 'V2', 'V3'};
 n = numel(nomes_x);
 ```
 
-# ================= VETOR DE MEDIDAS =================
+# ================ VETOR DE MEDIDAS ================
 ```matlab
 nomes_z = {'V1','V2','V3','P21a','P21b','P31','P32','Q12a','Q32','Qgbat','P1v','Q1v'};
 z   = [V1; V2; V3; P21a; P21b; P31; P32; Q12a; Q32; Qgbat; P1v; Q1v];
