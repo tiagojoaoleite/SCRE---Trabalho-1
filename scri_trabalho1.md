@@ -258,7 +258,7 @@ Estado: t1 = 2.5042 graus, t3 = 9.3786 graus, V1 = 1.0890, V2 = 0.9735, V3 = 1.0
 J(x) = 2350.12 | k = 7 | chi2(7; 95%) = 14.07 -> existem dados errados (95% de confianca)
 ```
 
-# PERGUNTA 2 \- Chi^2 + residuos normalizados \-> medida com erro grosseiro
+# PERGUNTA 2 \- Chi^2 + resíduos normalizados \-> medida com erro grosseiro
 ```matlab
 % Ordenar as medidas ativas por |rN| (resultado final da Pergunta 1)
 idxA = find(ativas_P1);
@@ -403,7 +403,7 @@ Estado: t1 = 3.0812 graus, t3 = 10.9980 graus, V1 = 1.0912, V2 = 0.9785, V3 = 1.
 J(x) = 15.30 | k = 6 | chi2(6; 95%) = 12.59 -> existem dados errados (95% de confianca)
 ```
 
-# PERGUNTA 3 \- Remocao sequencial ate obter o melhor subconjunto
+# PERGUNTA 3 \- Remoção sequencial até obter o melhor subconjunto
 ```matlab
 ativas_P3 = ativas_P2;
 P3 = P2;
@@ -648,7 +648,7 @@ set(gca, 'YScale', 'log');
 
 ![figure_0.png](./scri_trabalho1_media/figure_0.png)
 
-# ============================ FUNCOES ============================
+# ============================ FUNÇÕES ============================
 ```matlab
 function R = gauss_newton(z, var, ativas, nomes_z, nomes_x, rede, tol, maxit, alfa)
 % Iteracao de Gauss-Newton:  x(k+1) = x(k) + G^-1 * H' * W * (z - h(x(k)))
