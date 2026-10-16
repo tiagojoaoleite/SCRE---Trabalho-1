@@ -613,25 +613,14 @@ disp_resumo = array2table([P1.J_final, P1.k, P1.chi2_crit, max(abs(P1.rN_final))
 
 
 % Grafico de |rN| nas tres estimacoes
-figure('Name','Residuos normalizados');
-dados = nan(numel(z), 3);
-dados(ativas_P1,1) = abs(P1.rN_final);
-dados(ativas_P2,2) = abs(P2.rN_final);
-dados(ativas_P3,3) = abs(P3.rN_final);
-bar(categorical(MeasNames, MeasNames), dados); hold on;
-yline(limiar_rN, 'r--');
-legend('Pergunta 1','Pergunta 2','Pergunta 3','|r^N| = 3'); ylabel('|r_i^N|'); grid on;
-set(gca, 'YScale', 'log');
+print()
 ```
 
-![figure_0.png](./scri_trabalho1_media/figure_0.png)
 
 ```matlab
 
 
-%% =========================================================================
-%                              FUNCOES
-%  =========================================================================
+%% =========================== FUNCOES ===========================
 
 
 function R = gauss_newton(z, var, ativas, rede, tol, maxit, alfa)
