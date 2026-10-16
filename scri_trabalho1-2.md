@@ -89,7 +89,7 @@ disp_Ybus = array2table(Ybus, 'RowNames', BusNames, 'VariableNames', BusNames)
 |2 TWO|-4.0000 +20.0000i|6.0000 -30.0000i|-2.0000 +10.0000i|
 |3 THREE|-2.0000 +10.0000i|-2.0000 +10.0000i|4.0000 -20.0000i|
 
-# ================== VETOR DE ESTADO ==================
+# ================ VETOR DE ESTADO ================
 ```matlab
 
 
@@ -101,7 +101,7 @@ n = numel(StateNames);
 
 ```
 
-# ================== VETOR DE MEDIDAS ==================
+# ================ VETOR DE MEDIDAS ================
 ```matlab
 
 
